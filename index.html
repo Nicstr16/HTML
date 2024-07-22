@@ -4,75 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
     <header>
-        <img src= "./principal.avif" />
-        <h1> El Mundo del Trading</h1>
-        <SPan>MERCADO LOCAL</SPan>
-        <SPan>CRIPTO</SPan>
-        <SPan>MERCADO EXTERNO</SPan>
+        <div id="encabezado">
+            <img src= "./principal.avif" class="imagen"/>
+            <h1 class="titulos" id="principal"> El Mundo del Trading</h1>
+        </div>
+        <div id="botones"> 
+        <a class="menus">MERCADO LOCAL</a>
+        <a class="menus"> CRIPTO</a>
+        <a class="menus">MERCADO EXTERNO</a>
+        </div>
     </header>
+
     <main>
-        <hr>
         <section>
-            <h2> MERCADO LOCAL </h2>
-            <article>
-                <h3> Acciones </h3>
-                <p> Esta es la información más relevante sobre las acciones del Merval.</p>
-            </article>            
-            <article>
-                <h3> Bonos </h3>
-                <p> Esta es la información más relevante sobre los bonos soberanos.</p>
-            </article>
-            <article>
-                <h3> Cedear </h3>
-                <p> Esta es la información más relevante sobre los Cedears que se pueden adquirir
+            <div>
+                <h2 class="titulos"> MERCADO LOCAL </h2>
+            </div>
+            <div class="seccion">
+                <article>   
+                    <h3 class="titulos2"> Acciones </h3>
+                    <p> Esta es la información más relevante sobre las acciones del Merval.</p>
+                </article>            
+                <article>
+                    <h3 class="titulos2"> Bonos </h3>
+                    <p> Esta es la información más relevante sobre los bonos soberanos.</p>
+                </article>
+                <article>
+                    <h3 class="titulos2"> Cedear </h3>
+                    <p> Esta es la información más relevante sobre los Cedears que se pueden adquirir
                      en el mercado de valores argentino</p>
-            </article>
+                </article>
+            </div>
         </section>
-        <hr>
         <section>
-            <h2> CRIPTO </h2>
-            <article>
-                <h3> Bitcoin y Ethereum </h3>
-                <p> Esta es la información más relevante sobre el BTC y el ETH.</p>
-            </article>            
-            <article>
-                <h3> Altcoins </h3>
-                <p> Esta es la información más relevante sobre las nuevas Altcoins.</p>
-            </article>
-            <article>
-                <h3> Stablecoins </h3>
-                <p> Esta es la información más relevante sobre las Stablecoins</p>
-            </article>
+            <div>
+                <h2 class="titulos"> CRIPTO </h2>
+            </div>
+            <div class="seccion">
+                <article>
+                    <h3 class="titulos2"> Bitcoin y Ethereum </h3>
+                    <p> Esta es la información más relevante sobre el BTC y el ETH.</p>
+                </article>            
+                <article>
+                    <h3 class="titulos2"> Altcoins </h3>
+                    <p> Esta es la información más relevante sobre las nuevas Altcoins.</p>
+                </article>
+                <article>
+                    <h3 class="titulos2"> Stablecoins </h3>
+                    <p> Esta es la información más relevante sobre las Stablecoins</p>
+                </article>
+            </div>
         </section>
-        <hr>
         <section>
-            <h2> MERCADO EXTERNO </h2>
-            <article>
-                <h3> Indices </h3>
-                <p> Esta es la información más relevante sobre los índices más importantes del mercado. 
+            <div>
+                <h2 class="titulos"> MERCADO EXTERNO </h2>
+            </div>
+            <div class="seccion">
+                <article>
+                    <h3 class="titulos2"> Indices </h3>
+                    <p> Esta es la información más relevante sobre los índices más importantes del mercado. 
                     Por ejemplo el NASDAQ, S&P 500, entre otros.
-                </p>
-            </article>            
-            <article>
-                <h3> Deuda soberana </h3>
-                <p> Esta es la información más relevante la curva de bonos soberanos de las principales potencias.</p>
-            </article>
-            <article>
-                <h3> Mercado de futuros </h3>
-                <p> Esta es la información más relevante sobre los principales mercados de futuros:
+                    </p>
+                </article>    
+                <article>
+                    <h3 class="titulos2"> Deuda soberana </h3>
+                    <p> Esta es la información más relevante la curva de bonos soberanos de las principales potencias.</p>
+                </article>
+                <article>
+                    <h3 class="titulos2"> Mercado de futuros </h3>
+                    <p> Esta es la información más relevante sobre los principales mercados de futuros:
                      índicies, comodities, y pares de monedas </p>
-            </article>
+                </article>
+            </div>    
         </section>
-        <hr>
     </main>
-    <footer>
-        <ul>
-            <li><a href="">Sobre Nosotros</a></li>
-            <li><a href="">Contactanos</a></li>
-        </ul>
+    <footer>        
+        <a class="hv" href="">Sobre Nosotros</a>
+        <a class="hv" href="">Contactanos</a>        
     </footer>
 </body>
 </html>

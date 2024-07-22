@@ -1,0 +1,99 @@
+/* reset.css */
+
+/* Remove all margins, paddings, and borders */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set default font sizes */
+html {
+    font-size: 100%; /* 1rem = 16px */
+}
+
+body {
+    line-height: 1;
+    font-family: sans-serif;
+}
+
+/* Remove list styles */
+ol, ul {
+    list-style: none;
+}
+
+/* Remove quotes from blockquote and q */
+blockquote, q {
+    quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+    content: '';
+    content: none;
+}
+
+/* Set consistent border, margin, and padding for tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set consistent background and border for all elements */
+body, button, input, select, textarea {
+    background: none;
+    border: 0;
+}
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Set consistent focus styles */
+:focus {
+    outline: none;
+}
+
+/* Set consistent image styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Set consistent button styles */
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Set consistent input styles */
+input, button, select, textarea {
+    font: inherit;
+}
+
+/* Set consistent heading styles */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+/* Set consistent form element styles */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Utility classes */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
